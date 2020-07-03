@@ -1,0 +1,317 @@
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_1919377_f5ncu7grcv.eot?t=1593765953131'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_1919377_f5ncu7grcv.eot?t=1593765953131#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAMsAAsAAAAAB0AAAALeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqCJIIIATYCJAMMCwgABCAFhG0HOxtTBsgehXEsLBShUVlpf3wUQTSWzt5dEB2iiw/7KEAZFi4sgWQs1tgqUc/C9/9vTfvNFgPoilOioCoBbDezFJi8yZRZSMI7FgbdsQRF7tTJ04kLn7h3+leWwHxAOc6x6VMXYBxQQHtj1EVSIAl6w9hNBA7hPoF6vYpELTe290O8AiwLxKki8RCfsygt9aFWqK7ZW8QLxKhNt5ovAJ759+MfuCOepCoDa1f3G7xQ/VPz181tRDaMUwKk87lgHSJjGijEXq1nAycz0zj1gSo6bAfVipDmikcicEmoqoZ/eCRBVAO1jWBciyV+YhL3l1t2110ZVHuN3C5wqHM6U1ma0YOpZ0ePQPP6KkvL3TxJFNz37U2iWvr2rcHw/kemO2bIePRo47HOdP/UMgcN1KzVl965bD56svk013L3eOORN+7k6fFjiL1+dPTErYHmNuOl1nNZ/cdoSbYY/2zwTPWlR3vpFl/GNDd3b3QTVUze41p/VyGhHkNVdUaiXgolAyMp1v3sfXOKeT57/rOQEjWftW8tbsmah2mAyru8wfHcp/yaq/j5v3H1//uUqfx/vK6AH9mWGjVUeVegXzWolegt/dXSnj0llANrLr4ES2JftnLb6YT60K8CINDu13hD1+u4Qm1OaiGp0YOs1jBZONOo0mAW1WrNod6UpsMNOlCcKHWYtKsgtHqJpNl3ZK2+koXzE1W6/UO11uBQby1sZzYYDUVbRzHPsBfNLCJFIEER2ZlW1PdiadbP06yc8wYxDStx5LI7i/kmHMR0jg3hOcnNmIhESgKoUXkM+/0EhShRscDsMmOhUodDrHuRXSAB0FpCYTwG80JmLEIUAiJIpIMZbenzvTDJLD8ebWENxAdhVJgyOuJi5+xBNmmCvVj38kzYHIkbw4gQEUUEII2KC/PDDIGE6mepMAFjJ49IhZRyaP3Evhr7+rrA9x2CeuCMHClyFLWnvKowEpRiWRkv8wQAAAA=') format('woff2'),
+  url('//at.alicdn.com/t/font_1919377_f5ncu7grcv.woff?t=1593765953131') format('woff'),
+  url('//at.alicdn.com/t/font_1919377_f5ncu7grcv.ttf?t=1593765953131') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_1919377_f5ncu7grcv.svg?t=1593765953131#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-lajitong:before {
+  content: "\E732";
+}
+.icon-jiahao:before {
+  content: "\E602";
+}
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 45px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding: 0 10px;
+	font-size: 12px;
+	color: 333;
+	background: #fff;
+	-webkit-box-shadow: -1px 1px 5px rgba(0, 0, 0, .1);
+	        box-shadow: -1px 1px 5px rgba(0, 0, 0, .1);
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	z-index: 100;
+}
+
+
+.header-right {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.header-right view {
+	padding: 0 5px;
+}
+.active-text {
+	font-size: 14px;
+	color: #279abf;
+	padding-right: 10px;
+}
+.active-tab {
+	color: #279abf;
+}
+.content {
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+.todo-list {
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 15px;
+	margin: 15px;
+	color: #0c3854;
+	font-size: 14px;
+	border-radius: 10px;
+	background: #cfebfd;
+	-webkit-box-shadow: -1px 1px 5px rgba(0, 0, 0, .1), -1px 2px 1px 0 rgb(255, 255, 255) inset;
+	        box-shadow: -1px 1px 5px rgba(0, 0, 0, .1), -1px 2px 1px 0 rgb(255, 255, 255) inset;
+	overflow: hidden;
+}
+.todo-list::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 5px;
+	background: #91d1e8;
+}
+.todo-list-checkbox {
+	padding-right: 15px;
+}
+.checkbox {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #fff;
+	-webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, .1);
+	        box-shadow: 0 0 1px 1px rgba(0, 0, 0, .1);
+}
+.todo-list-content {
+	width: 100%
+}
+.todo-finish .checkbox {
+	background: #eee;
+	position: relative;
+}
+.todo-finish .checkbox::after {
+	content: '';
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	background: #cfebfd;
+	-webkit-box-shadow: 0 0 2px 0 rgba(0, 0, 0, .2) inset;
+	        box-shadow: 0 0 2px 0 rgba(0, 0, 0, .2) inset;
+}
+.todo-finish .todo-list-content {
+	color: #999;
+}
+
+/* 同级关系不需要空格 */
+.todo-finish.todo-list::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 35px;
+	right: 40px;
+	height: 2px;
+	margin: auto 0;
+	background: #bdcdd8;
+}
+.todo-finish.todo-list::after {
+	background: #bdcdd8;
+}
+.create-todo {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	position: fixed;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background: #deeff5;
+	-webkit-box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, .1), -1px 1px 1px 0 rgb(255, 255, 255)inset;
+	        box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, .1), -1px 1px 1px 0 rgb(255, 255, 255)inset;
+}
+.icon-jiahao {
+	font-size: 30px;
+	color: #add8e6;
+}
+.create-content {
+	position: fixed;
+	bottom: 95px;
+	left: 20px;
+	right: 20px;
+	opacity: 0;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+	-webkit-transform: scale(0) translateY(300%);
+	    -ms-transform: scale(0) translateY(300%);
+	        transform: scale(0) translateY(300%);
+}
+.create-show {
+	opacity: 1;
+	-webkit-transform: scale(1) translateY(0);
+	    -ms-transform: scale(1) translateY(0);
+	        transform: scale(1) translateY(0);
+}
+.create-content-box {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding-left: 15px;
+	border-radius: 50px;
+	background: #deeff5;
+	-webkit-box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, .1), -1px 1px 1px 0 rgb(255, 255, 255)inset;
+	        box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, .1), -1px 1px 1px 0 rgb(255, 255, 255)inset;
+	z-index: 2;
+}
+.create-input {
+	width: 100%;
+	padding-right: 15px;
+	color: #add8e6;
+}
+.create-button {
+	-webkit-flex-shrink: 0;
+	    -ms-flex-negative: 0;
+	        flex-shrink: 0;
+	width: 80px;
+	height: 50px;
+	border-radius: 50px;
+	font-size: 16px;
+	color: #88d4ec;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-shadow: -2px 0 2px 1px rgba(0, 0, 0, .1);
+	        box-shadow: -2px 0 2px 1px rgba(0, 0, 0, .1);
+}
+.create-content::after {
+	content: '';
+	width: 20px;
+	height: 20px;
+	background: #deeff5;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+	margin: 0 auto;
+	-webkit-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	        transform: rotate(45deg);
+	-webkit-box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, .1);
+	        box-shadow: -1px 1px 5px 2px rgba(0, 0, 0, .1);
+	z-index: -1;
+}
+.create-content-box::after {
+	content: '';
+	width: 20px;
+	height: 20px;
+	background: #deeff5;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+	margin: 0 auto;
+	-webkit-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	        transform: rotate(45deg);
+}
+.default {
+	padding-top: 100px;
+}
+.image-default {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.image-default image {
+	width: 100%;
+}
+.default-info {
+	font-size: 16px;
+	color: #ccc;
+	text-align: center;
+}
+.icon-jiahao {
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+.create-todo-active {
+	-webkit-transform: rotate(135deg);
+	    -ms-transform: rotate(135deg);
+	        transform: rotate(135deg);
+}
+.deleteTodo {
+	text-align: right;
+}
+.icon-lajitong {
+	font-size: 18px;
+	color: #348fca;
+}
+
